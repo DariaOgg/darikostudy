@@ -77,6 +77,7 @@ header{
     background-color: #98161b;
     padding: 26px 0 26px 20px;
 }
+
 .player {
     position: relative;
     z-index: 2;
