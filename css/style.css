@@ -75,8 +75,7 @@ header{
     font-weight: 700;
     color: white;
     background-color: #98161b;
-    line-height: 70px;
-    padding-left: 20px;
+    padding: 26px 0 26px 20px;
 }
 .player {
     position: relative;
@@ -94,7 +93,7 @@ header{
 .player .video{
     position: relative;
     z-index: 9;
-    width: 568px;
+    max-width: 568px;
     height: 346px;
     margin: 64px 0 30px 0;
     background-color: #e7e7e7;
