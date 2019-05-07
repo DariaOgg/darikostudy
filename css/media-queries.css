@@ -13,6 +13,39 @@
 
 @media only screen and (max-width: 767px) {
 
+    .container {
+        margin: auto;
+        padding: 0 15px 0 15px;
+    }
+
+    .player .container {
+        padding: 60px 15px 60px 15px;
+    }
+
+    .container .logo {
+        margin: 20px 0;
+        width: 70%;
+    }
+
+    .bg {
+        background-image: url('../images/bg_img.png');
+        width: 100%;
+    }
+
+
+    .player .video_name {
+        font-size: 16px;
+    }
+
+    .player .date {
+        font-size: 16px;
+    }
+
+    .player .container .text {
+        font-size: 14px;
+    }
+
+
     .left_block, .right_block{
         float: none;
         width: 100%;
