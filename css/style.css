@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 
-header{
+header {
     height: 40px;
     background-color: #af2024;
 }
@@ -33,6 +33,7 @@ header{
     right: 0;
     top: 260px;
 }
+
 .fix a {
     text-align: center;
     width: 50px;
@@ -47,29 +48,29 @@ header{
     text-align: center;
 }
 
-.fix .first{
+.fix .first {
     background-color: #850409;
 }
 
-.fix .second{
+.fix .second {
     background-color: #98161b;
 }
 
-.container{
+.container {
     margin: auto;
     max-width: 960px;
 }
 
-.container .logo{
+.container .logo {
     margin: 20px 0;
 }
 
-.player{
+.player {
     max-width: 710px;
     margin: auto;
 }
 
-.player h1{
+.player h1 {
     font-size: 20px;
     font-family: 'Arvo', serif;
     font-weight: 700;
@@ -83,41 +84,43 @@ header{
     z-index: 2;
     top: 70px;
     background-color: #fff;
-
 }
 
-.player .container{
-    max-width: 568px;
-    margin:auto;
+.player .container {
+    padding: 63px 75px 125px 75px;
 }
 
-.player .video{
+.player .video {
     position: relative;
     z-index: 9;
     max-width: 568px;
     height: 346px;
-    margin: 64px 0 30px 0;
+    margin-top: 30px;
     background-color: #e7e7e7;
 }
 
-.player .video .play{
+.player .video .play {
     position: absolute;
     widows: 0;
     width: 0;
     height: 0;
     border-top: 25px solid transparent;
     border-left: 47px solid #98161b;
-    border-bottom: 25px solid transparent; left: 50%; top:50%; margin-top: -25px; margin-left: -20px;
+    border-bottom: 25px solid transparent;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -20px;
 }
 
-.player .video_name{
+.player .video_name {
     font-size: 13px;
     font-family: 'Arvo', serif;
     font-weight: 700;
     color: #98161b;
 }
 
-.player .date{
+.player .date {
     display: inline;
     font-size: 13px;
     font-family: 'Arvo', serif;
@@ -132,18 +135,18 @@ header{
     max-width: 44px;
 }
 
-.player .container .text{
+.player .container .text {
     padding-top: 18px;
     font-size: 12px;
     font-family: 'Arvo', serif;
     color: #98161b;
     line-height: 18px;
-    padding-bottom: 126px;
 }
- footer{
-     position: relative;
-     z-index: 1;
-     background-color: black;
-     height: 450px;
-     border-top: solid 34px #3f0002;
- }
+
+footer {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    height: 450px;
+    border-top: solid 34px #3f0002;
+}
